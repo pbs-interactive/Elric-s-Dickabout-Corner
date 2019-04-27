@@ -1,5 +1,3 @@
-#We gon' write a script to make a useless thing.
-
 #!/bin/bash
 
 if [[ -d /tmp/dateThangs ]]
@@ -9,3 +7,5 @@ else
   mkdir /tmp/dateThangs
   
 fi
+
+#This will create a file with the current date in a subdir of /tmp/. If that subdir does not exist, the script will make it first.
