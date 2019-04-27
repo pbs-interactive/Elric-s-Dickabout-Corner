@@ -1,0 +1,11 @@
+#We gon' write a script to make a useless thing.
+
+#!/bin/bash
+
+if [[ -d /tmp/dateThangs ]]
+then
+  touch /tmp/dateThangs/file-$(date +%Y%M%d)
+else
+  mkdir /tmp/dateThangs
+  
+fi
